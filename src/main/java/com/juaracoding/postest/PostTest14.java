@@ -69,7 +69,7 @@ public class PostTest14 {
         String sucesss = driver.findElement(By.xpath("/html/body/div/div")).getText();
         System.out.println(sucesss);
 
-        System.out.println("===Delay 3 Second");
+        System.out.println("===Delay 3 Second===");
         try {
             Thread.sleep(3000);
         }catch (InterruptedException e){
